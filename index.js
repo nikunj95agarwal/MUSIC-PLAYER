@@ -1,3 +1,4 @@
+// preloader event added already here
 document.addEventListener('DOMContentLoaded', function () {
     const preloader = document.querySelector('.preloader');
   
