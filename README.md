@@ -1,1 +1,1 @@
-THIS PROJECT IS UNDER DEVELOPMENT STAGE.
+Made a Personal Music player with night mode
