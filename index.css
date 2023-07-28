@@ -119,11 +119,19 @@
     border-radius: 1rem;
   }
   
-  #demo {
-    color: yellow;
-    margin-left: 0;
-    font-size: x-large;
-    display: block;
-    text-align: left;
-  }
   
+
+  #night_mode {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    height: 5rem;
+    cursor: pointer;
+    /* color: #0e0c0c; */
+    /* padding: 0.4rem; */
+    /* border-radius: 50%; */
+  }
+
+/* #night_mode:hover{background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdThzcDYyeHpsYzVmcHJvbmtsZXVmdWltZHY1OTJ5bHN1N3p0NHd6YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Z4o1MQ7jnQ0yMm0tnr/giphy.gif);} */
+  
+

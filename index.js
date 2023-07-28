@@ -123,6 +123,52 @@ progressBar.addEventListener('click', function (event) {
   audio.currentTime = newTime;
 });
 
-// audio.addEventListener('error', function () {
+// audio.addEventListener("canplay", function () {
 //   duration.textContent = "0:00"; 
 // })
+let main_div = document.getElementById('main_div')
+var night_mode = document.getElementById('night_mode')
+night_mode.addEventListener('click', function(){
+  if (
+    night_mode.src ===
+    "https://cdn-icons-png.flaticon.com/128/4489/4489231.png"
+  ) {
+    night_mode.src =
+      "https://cdn3.iconfinder.com/data/icons/meteocons/512/sun-symbol-512.png";
+main_div.style.backgroundColor = "#0e0c0c";
+document.getElementById('audio_player').style.backgroundColor = "black";
+main_div.style.color = "white";
+document.getElementById('audio_player').style.textShadow = "0 0.3rem 0.5rem rgba(249, 249, 248, 0.4)";
+night_mode.style.backgroundColor="yellow"
+night_mode.style.borderRadius="50%"
+f_btn.style.backgroundColor="black"
+f_btn.style.color="white"
+b_btn.style.backgroundColor="black"
+b_btn.style.color="white"
+play_btn.style.backgroundColor="white"
+play_btn.style.color="black"
+document.getElementById('audio_player').style.boxShadow= "0 1.2rem 3rem 0.5rem rgba(249, 249, 248, 0.4)";
+// if(progress.style.width>="29%"){progress.style.color = "white"}
+
+    
+  } else {
+    night_mode.src =
+      "https://cdn-icons-png.flaticon.com/128/4489/4489231.png";
+      main_div.style.backgroundColor = "#f6f6f6";
+document.getElementById('audio_player').style.backgroundColor = "white";
+main_div.style.color = "black";
+night_mode.style.backgroundColor="#f6f6f6"
+f_btn.style.backgroundColor="white"
+f_btn.style.color="black"
+b_btn.style.backgroundColor="white"
+b_btn.style.color="black"
+play_btn.style.backgroundColor="black"
+play_btn.style.color="white"
+document.getElementById('audio_player').style.boxShadow= "0 1.2rem 3rem 0.5rem rgba(0, 0, 0, 0.4)";
+document.getElementById('audio_player').style.textShadow = "0 0.3rem 0.5rem rgba(0, 0, 0, 0.4)";
+
+  }
+
+
+
+})
